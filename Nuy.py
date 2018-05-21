@@ -12,9 +12,9 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
+vipro.login(token='EtJ5Wmqoka278PXvpOof.uGsdsA5S94OGbWU0TvY6ZW.QBCc6aItLV3qfM+nUPyVzsdEBBneVlNcPnTyoMk9qyU=')
 vipro.loginResult()
-print "Vipro-Login Success\n\n=====[Sukses Login]====="
+print "Khusnul1905-Login Success\n\n=====[Sukses Login]====="
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -49,8 +49,8 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║           💠☣..RüZGaR..☣💠
-║   〽️line.me/ti/p/aZr6IfLt_1〽️
+║           💠☣..Khusnul..☣💠
+║   〽️line.me/ti/p/~khusnul1905〽️
 ╚═════════════════════════
 """
 
@@ -69,8 +69,8 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║           💠☣..RüZGaR..☣💠
-║   〽️line.me/ti/p/aZr6IfLt_1〽️
+║           💠☣..Khusnul..☣💠
+║   〽️line.me/ti/p/~khusnul1905〽️
 ╚═════════════════════════
 """
 
@@ -108,8 +108,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║           💠☣..RüZGaR..☣💠
-║   〽️ line.me/ti/p/aZr6IfLt_1 〽️
+║           💠☣..Khusnul..☣💠
+║   〽️line.me/ti/p/~khusnul1905〽️
 ╚═════════════════════════
 """
 
@@ -143,11 +143,11 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║           💠☣..RüZGaR..☣💠
-║   〽️line.me/ti/p/aZr6IfLt_1 〽️
+║           💠☣..Khusnul..☣💠
+║   〽️line.me/ti/p/~khusnul1905〽️
 ╚═════════════════════════
 """
-vip="u6150b647425feefb2cb54fa8b203328c"
+nuy="u52048349ae6cf78a20070bb4b55cbacf"
 
 setMessage ="""
 ╔═════════════════════════
@@ -162,8 +162,8 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║           💠☣..RüZGaR..☣💠
-║   〽️line.me/ti/p/aZr6IfLt_1〽️
+║           💠☣..Khusnul..☣💠
+║   〽️line.me/ti/p/~khusnul1905〽️
 ╚═════════════════════════
 """
 
@@ -181,8 +181,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║           💠☣..RüZGaR..☣💠
-║   〽️line.me/ti/p/aZr6IfLt_1〽️
+║           💠☣..Khusnul..☣💠
+║   〽️line.me/ti/p/~khusnul1905〽️
 ╚═════════════════════════
 """
 
@@ -222,8 +222,8 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║           💠☣..RüZGaR..☣💠
-║   〽️line.me/ti/p/aZr6IfLt_1〽️
+║           💠☣..Khusnul..☣💠
+║   〽️line.me/ti/p/~khusnul1905〽️
 ╚═════════════════════════
 """
 
@@ -243,8 +243,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║           💠☣..RüZGaR..☣💠
-║   〽️line.me/ti/p/aZr6IfLt_1〽️
+║           💠☣..Khusnul..☣💠
+║   〽️line.me/ti/p/~khusnul1905〽️
 ╚═════════════════════════
 """
 
@@ -252,8 +252,8 @@ helpMessage ="""
 KAC=[vipro]
 mid = vipro.getProfile().mid
 Bots=[mid]
-Creator=["u6150b647425feefb2cb54fa8b203328c"]
-admin=["u6150b647425feefb2cb54fa8b203328c"]
+Creator=["u52048349ae6cf78a20070bb4b55cbacf"]
+admin=["u52048349ae6cf78a20070bb4b55cbacf"]
 
 contact = vipro.getProfile()
 backup1 = vipro.getProfile()
@@ -269,7 +269,7 @@ wait = {
     "Bot":True,
     "AutoJoin":False,
     "AutoJoinCancel":False,
-    "memberscancel":30,
+    "memberscancel":2,
     "Members":1,
     "AutoCancel":False,
     "AutoKick":False,
@@ -280,13 +280,13 @@ wait = {
     'copy':{},    
     'likeOn':{},
     'detectMention':False,
-    'detectMention2':True,
-    'detectMention3':False,
+    'detectMention2':False,
+    'detectMention3':True,
     'kickMention':False,  
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",    
+    "comment":"Bot Auto Like ©By : Noey\nContact Me : 👉 line.me/ti/p/~khusnul1905",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
@@ -295,7 +295,7 @@ wait = {
     "dblacklist":False,
     "Qr":False,
     "Contact":False,
-    "Sambutan":False,
+    "Sambutan":True,
     "inviteprotect":False,    
     "alwaysRead":False,    
     "Sider":{},
@@ -630,7 +630,7 @@ def bot(op):
 		    G = vipro.getGroup(op.param1)
                     if len(G.members) <= wait["memberscancel"]:
                         vipro.acceptGroupInvitation(op.param1)
-                        vipro.sendText(op.param1,"Maaf " + vipro.getContact(op.param2).displayName + "\nMember Kurang Dari 30 Orang\nUntuk Info, Silahkan Chat Owner Kami!")
+                        vipro.sendText(op.param1,"Maaf " + vipro.getContact(op.param2).displayName + "\nMember Kurang Dari 2 Orang\nUntuk Info, Silahkan Chat Owner Kami!")
                         vipro.leaveGroup(op.param1)                        
 		    else:
                         vipro.acceptGroupInvitation(op.param1)
@@ -806,7 +806,7 @@ def bot(op):
             ginfo = vipro.getGroup(op.param1)
             contact = vipro.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            vipro.sendText(op.param1,"Hallo " + vipro.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note\nDan Semoga Betah Disini ^_^")
+            vipro.sendText(op.param1,"Hallo " + vipro.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note Kaka\nDan Semoga Betah Di Keluarga ini ^_^")
             c = Message(to=op.param1, from_=None, text=None, contentType=13)
             c.contentMetadata={'mid':op.param2}
             vipro.sendMessage(c)  
@@ -823,7 +823,7 @@ def bot(op):
           if wait["Sambutan"] == True:
             if op.param2 in Creator:
                 return
-            vipro.sendText(op.param1,"Good Bye " + vipro.getContact(op.param2).displayName +  "\nSee You Next Time . . . (p′︵‵。) 🤗")
+            vipro.sendText(op.param1,"Good Bye " + vipro.getContact(op.param2).displayName +  "\nSee You Next Time \nKita Nikung Di Sebelah Aja Ya Kak . . . (p′︵‵。) 🤗")
             d = Message(to=op.param1, from_=None, text=None, contentType=7)
             d.contentMetadata={
                                     "STKID": "13269542",
@@ -871,7 +871,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = vipro.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Dia Lagi Off", cName + " Kenapa Tag Saya?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                     balas = ["Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Dia Lagi Off", cName + " Kenapa Tag Saya?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Dih Tag2 mulu, PC mesra  aja " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Nah " + cName + " Yg Ngetag, Jomblo Abadi!"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -885,7 +885,7 @@ def bot(op):
                  if wait["detectMention2"] == True:          
                     contact = vipro.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                    balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","nah " + cName + " kesepian ya (^_^)!"]
                     ret_ = random.choice(balas)
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -906,8 +906,8 @@ def bot(op):
                  if wait["detectMention3"] == True:          
                     contact = vipro.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Woii " + cName + ", Dasar Jones Ngetag Mulu!"]
-                    balas1 = "Ini Foto Sii Jones Yang Suka Ngetag. . ."
+                    balas = ["Woii " + cName + ", Diem Diem Ngetag Bae!"]
+                    balas1 = "Ini nih Foto nya yg Diem Diem Ngetag bae \nMandi Ngapa Mandi biar gk jones bae (^_^). . ."
                     ret_ = random.choice(balas)
                     image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
                     name = re.findall(r'@(\w+)', msg.text)
@@ -1045,9 +1045,9 @@ def bot(op):
  
             elif msg.text in ["Creator","Owner"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': tjia}
+                msg.contentMetadata = {'mid': nuy}
                 vipro.sendMessage(msg)
-		vipro.sendText(msg.to,"Itu Majikan Kami (^_^)")
+		vipro.sendText(msg.to,"Itu Owner Kami (^_^)")
 
  
 
@@ -1628,7 +1628,7 @@ def bot(op):
 		else:md+="╠➩❌ Auto Sider: Off\n"	
 		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
 		else:md+="╠➩❌ Simisimi: Off\n"		
-                vipro.sendText(msg.to,"╔═════════════════════════\n""║           ☆☞ S T A T U S ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
+                vipro.sendText(msg.to,"╔═════════════════════════\n""║☆☞ S T A T U S ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
 
 
             elif msg.text in ["Gift","gift"]:
@@ -2102,7 +2102,7 @@ def bot(op):
                 vipro.sendMessage(msg)
                 
 
-            elif "tag all" == msg.text.lower():
+            elif "tampol" == msg.text.lower():
                  group = vipro.getGroup(msg.to)
                  nama = [contact.mid for contact in group.members]
                  nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2254,7 +2254,7 @@ def bot(op):
                         dataResult.append(contactId[v].displayName + ' ('+timeSeen[v]+')')
                         pass
                     if len(dataResult) > 0:
-                        tukang = "╔═════════════════════════\n║         ☆☞ LIST VIEWERS ☜☆\n╠═════════════════════════\n╠➩"
+                        tukang = "╔═════════════════════════\n║☆☞ LIST VIEWERS ☜☆\n╠═════════════════════════\n╠➩"
                         grp = '\n╠➩ '.join(str(f) for f in dataResult)
                         total = '\n╠═════════════════════════\n╠➩ Total %i Viewers (%s)' % (len(dataResult), datetime.now().strftime('%H:%M:%S')) + "\n╚═════════════════════════"
                         vipro.sendText(msg.to, "%s %s %s" % (tukang, grp, total))
@@ -2351,7 +2351,7 @@ def bot(op):
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "uda936836a9869eb86ec8ab992a4e8979"
+                midd = "u52048349ae6cf78a20070bb4b55cbacf"
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
@@ -2583,7 +2583,7 @@ def bot(op):
             elif 'Crash' in msg.text:
               if msg.from_ in Creator:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "vipro,'"}
+                msg.contentMetadata = {'mid': ""}
                 vipro.sendMessage(msg)
 
  
@@ -3404,7 +3404,7 @@ def bot(op):
                 h = ""
                 for i in gid:
                     h += "╠➩" + "%s\n" % (vipro.getGroup(i).name +" ~> ["+str(len(vipro.getGroup(i).members))+"]")
-                vipro.sendText(msg.to,"╔═════════════════════════\n║          ☆☞ LIST GROUPS☜☆\n╠═════════════════════════\n" + h + "╠═════════════════════════" + "\n║ Total Groups =" +" ["+str(len(gid))+"]\n╚═════════════════════════")
+                vipro.sendText(msg.to,"╔═════════════════════════\n║☆☞ LIST GROUPS☜☆\n╠═════════════════════════\n" + h + "╠═════════════════════════" + "\n║ Total Groups =" +" ["+str(len(gid))+"]\n╚═════════════════════════")
 
             elif msg.text in ["Glistmid"]:   
                 gruplist = vipro.getGroupIdsJoined()
